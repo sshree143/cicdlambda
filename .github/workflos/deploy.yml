@@ -27,5 +27,5 @@ jobs:
           aws configure set region $AWS_REGION
           
           aws lambda update-function-code \
-            --function-name arn:aws:lambda:us-east-1:654710358846:function:lambdacicd \
+            --function-name lambdacicd \
             --zip-file fileb://function.zip
